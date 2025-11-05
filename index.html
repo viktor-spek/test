@@ -5,50 +5,43 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сучаcна пекарня</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-<header>
+    <header>
     <nav>
-        <a href="#">
-            <img src="./images/logo.svg" alt="Логотип сучасної пекарні"/>
+        <a href="/genius-homework-1/">
+            <img src="/genius-homework-1/images/logo.svg" alt="Логотип сучасної пекарні">
         </a>
          <ul>
-            <li>
-                <a href="#">Франшиза</a>
-            </li>
-            <li>
-                <a href="#">Наші традиції</a>
-            </li>
-            <li>
-                <a href="#">Формати</a>
-            </li>
-            <li>
-                <a href="#">Контакти</a>
-            </li>
+            <li><a class="link" href="#tradichen-section">Наші традиції</a></li>
+            <li><a class="link" href="#kuhari-section">Шеф-кухарі</a></li>
+            <li><a class="link" href="#format-section">Формати</a></li>
+            <li><a class="link" href="#kontact-section">Контакти</a></li>
          </ul>
-    </nav>
-    <button type="button">Замовити дзвінок</button>
+        </nav>
+    <button class="button">Замовити дзвінок</button>
     </header>
     <main>
         <section>
-            <h1>Сучаcна пекарня</h1>
+            <h1 class="hero-title"><span class="accent">Сучаcна</span> пекарня</h1>
         </section>
-        <section>
-            <ul>
+        <section id="tradichen-section">
+            <ul class="advantages-list">
                 <li>Великий попит на ринку</li>
                 <li>Доступні за бюджетом формати</li>
                 <li>Досвідчена управлінська команда</li>
             </ul>
-            <h2>Новий формат традицій</h2>
+            <h2 class="section-title">Новий формат традицій</h2>
             <p>
                 <span lang="en">SHOP BAKERY</span> - це пекарня, яка взяла все найкраще, і зберегла смак традиційної випічки та натуральність інгредієнтів.</p>
         <p>Ми працюємо як найвідоміші мережі -
         <span>5 хвилин і замовлення готове.</span>
         А ще у наших пекарень стильний дизайн та висока якість обслуговування!</p>
-        <img src="/genius-homework-1/images/baker-man@2x.jpg" alt="Чоловік пекар дивиться на батони з посмішкою" />
-            </section>
-        <section>
-            <h2>Наші найкращі шеф кухарі</h2>
+        <img src="/genius-homework-1/images/baker-man@2x.jpg" alt="Чоловік пекар дивиться на батони з посмішкою">
+        </section>
+        <section id="kuhari-section">
+            <h2 class="section-title">Наші найкращі <span class="accent">шеф кухарі</span></h2>
             <ul>
                 <li>
                     <article>
@@ -69,8 +62,8 @@
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>Формати</h2>
+        <section id="format-section">
+            <h2 class="section-title">Формати</h2>
             <ul>
                 <li>
                     <article>
@@ -87,21 +80,30 @@
                 </article></li>
             </ul>
         </section>
-        <section>
-            <h2>Приєднуйтесь до мережі пекарень</h2>
+        <section id="kontact-section">
+            <h2 class="section-title">Приєднуйтесь до мережі пекарень</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2698.92385571674!2d30.4912733!3d50.4566776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637c006b2d%3A0xaf86385f19996ff0!2z0YPQuy4g0KHQtdGH0LXQstGL0YUg0KHRgtGA0LXQu9GM0YbQvtCyLCA1NCwg0JrQuNC10LIsIDAyMDAw!5e1!3m2!1sru!2sua!4v1762334339429!5m2!1sru!2sua"
+                width="603" 
+                height="595" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
         </section>
     </main>
     <footer>
         <nav>
             <a href="#">
-            <img src="./images/logo.svg" alt="Логотип сучасної пекарні" />
+            <img src="./images/logo.svg" alt="Логотип сучасної пекарні">
             </a>
             <ul>
                 <li>
-                    <a href="#">Франшиза</a>
+                    <a href="#">Наші традиції</a>
                 </li>
                 <li>
-                    <a href="#">Наші традиції</a>
+                    <a href="#">Шеф кухарі</a>
                 </li>
                 <li>
                     <a href="#">Формати</a>
@@ -135,8 +137,8 @@
                 <li>
                     <a href="#" target="_blank">Політика конфіденсійності</a>
                 </li>
-                <p>2022 Дані захищенні</p>
             </ul>
+            <p>&copy; 2022 Дані захищені</p>
         </address>
     </footer>
 </body>
